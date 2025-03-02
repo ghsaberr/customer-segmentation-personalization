@@ -1,0 +1,2 @@
+# Bank Customer Segmentation and Personalization
+Bank customer segmentation is the process of dividing a bank's customer base into distinct groups based on shared characteristics or behaviors. This allows banks to better understand their customers and tailor their services, marketing efforts, and overall customer experience to meet the specific needs of each segment.
