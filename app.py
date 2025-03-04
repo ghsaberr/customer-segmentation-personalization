@@ -17,17 +17,11 @@ def predict():
         schema:
           type: object
           properties:
-            EngagementScore:
-              type: number
             Recency:
               type: integer
             Frequency:
               type: integer
             Monetary:
-              type: number
-            LTV:
-              type: number
-            TransactionStdDev:
               type: number
     
     responses:

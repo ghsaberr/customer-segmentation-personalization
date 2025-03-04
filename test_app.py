@@ -11,13 +11,10 @@ def client():
 
 def test_predict_success(client):
     """Test /predict endpoint with valid input."""
-    data = {
-        "EngagementScore": 0.8,
+    data = {        
         "Recency": 15,
         "Frequency": 5,
-        "Monetary": 2000,
-        "LTV": 10000,
-        "TransactionStdDev": 50
+        "Monetary": 2000
     }
 
     response = client.post('/predict', data=json.dumps(data), content_type='application/json')
